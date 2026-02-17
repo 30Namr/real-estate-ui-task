@@ -1,0 +1,324 @@
+/* ===== GLOBAL ===== */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+p {
+    color: #666;
+    font-size: 14px;
+}
+
+h6 {
+    font-weight: 600;
+}
+/* ===== FEATURES ===== */
+
+.contact-info {
+    width: 60px;
+}
+
+.feature-btn {
+    background: #1abc9c;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 8px 20px;
+    transition: 0.3s ease;
+}
+
+.feature-btn:hover {
+    background: #159a80;
+}
+/* ===== FEATURED PROPERTY ===== */
+
+.formImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Price Box (Bottom Right Attached) */
+.price-box {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #1abc9c;
+    color: #fff;
+    padding: 20px 25px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.price-text {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.possession-box {
+    border: 1px solid #fff;
+    margin-top: 12px;
+    padding: 8px 12px;
+    font-size: 13px;
+}
+
+/* Right Form Panel */
+.featured-form {
+    background: #111;
+    color: #fff;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.form-wrapper {
+    width: 100%;
+    max-width: 420px;
+}
+
+/* Headings */
+.formHeading {
+    color: #1abc9c;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.location-text {
+    color: #aaa;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.info-title {
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+/* Inputs */
+.custom-input {
+    background: transparent;
+    border: 1px solid #444;
+    color: #fff;
+    height: 45px;
+    border-radius: 2px;
+    padding-left: 15px;
+}
+
+.custom-input:focus {
+    border-color: #1abc9c;
+    box-shadow: none;
+    background: transparent;
+    color: #fff;
+}
+
+.custom-input::placeholder {
+    color: #777;
+}
+
+/* Submit Button */
+.submit-btn {
+    background: #1abc9c;
+    border: none;
+    height: 45px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
+    color: #fff;
+}
+
+.submit-btn:hover {
+    background: #159a80;
+}
+/* ===== HOT PROPERTIES ===== */
+
+.hot-section {
+    padding: 80px 0;
+    background: #fff;
+}
+
+/* Section Header */
+.section-header {
+    margin-bottom: 60px;
+    text-align: left;
+}
+
+.section-title {
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.title-underline {
+    width: 60px;
+    height: 3px;
+    background: #1abc9c;
+}
+
+/* Divider Line */
+.hot-row {
+    position: relative;
+}
+
+.hot-row::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 1px;
+    background: #e5e5e5;
+}
+
+/* Columns */
+.hot-col {
+    padding: 0 60px;
+}
+
+.property-content {
+    max-width: 500px;
+}
+
+/* Buttons */
+.property-btn {
+    background: #1abc9c;
+    color: #fff;
+    border: none;
+    padding: 8px 22px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.property-btn:hover {
+    background: #159a80;
+}
+
+/* Property List */
+.property-list {
+    margin-bottom: 30px;
+}
+
+.property-item {
+    margin-bottom: 28px;
+}
+
+.property-item h6 {
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.property-footer {
+    font-size: 14px;
+    color: #666;
+}
+
+.search-link {
+    color: #1abc9c;
+    font-weight: 600;
+    margin-left: 6px;
+    cursor: pointer;
+}
+/* ===== STATS ===== */
+
+.stats-section {
+    background: linear-gradient(90deg, #2b2b2b, #1f1f1f);
+    padding: 60px 0;
+    color: #fff;
+}
+
+.stat-circle {
+    width: 130px;
+    height: 130px;
+    background: #fff;
+    color: #222;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.stat-text {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+/* ===== TESTIMONIAL ===== */
+
+.testimonial-section {
+    padding: 60px 0;
+    background: #f9f9f9;
+}
+
+.testimonial-wrapper {
+    max-width: 700px;
+}
+
+.testimonial-img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.testimonial-text {
+    margin: 0 auto 20px;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.8;
+}
+
+.testimonial-author {
+    font-weight: 600;
+    color: #333;
+}
+
+/* Indicators */
+.custom-indicators {
+    position: relative;
+    margin-top: 30px;
+}
+
+.custom-indicators button {
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 50%;
+    background-color: #bbb !important;
+    border: none;
+    margin: 0 5px;
+}
+
+.custom-indicators .active {
+    background-color: #333 !important;
+}
+/* ===== DEVELOPERS ===== */
+
+.developers img {
+    height: 60px;
+    margin: 20px;
+}
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 991px) {
+
+    .hot-row::after {
+        display: none;
+    }
+
+    .hot-col {
+        padding: 0 15px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .property-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-header {
+        margin-bottom: 40px;
+    }
+}
